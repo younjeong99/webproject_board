@@ -1,0 +1,277 @@
+/*******************************/
+/********* General CSS *********/
+/*******************************/
+
+body {
+  color: #797979;
+  background:	 #ffffff;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #092a49;
+}
+a {
+  color: #454545;
+  transition: .3s;
+}
+a:hover,a:active,a:focus {
+  color: #092a49;
+  outline: none;
+  text-decoration: none;
+}
+.btn:focus,.form-control:focus {
+  box-shadow: none;
+}
+.container-fluid {
+  max-width: 1366px;
+}
+/*********** Nav Bar CSS **********/
+.navbar {
+  position: relative;
+  transition: .5s;
+  z-index: 999;
+}
+
+.navbar .navbar-brand {
+  margin: 0;
+  color: #ffffff;
+  font-size: 70px;
+  line-height: 0px;
+  font-weight: 200;
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-family: 'Nerko One', cursive;
+}
+
+.navbar {
+  padding: 30px 60px;
+  background: #FFF56E	 !important;
+}
+
+.navbar a.nav-link {
+  padding: 8px 24px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Nerko One', cursive;
+}
+/*********** class CSS **********/
+.classmenu {
+  position: relative;
+  margin-left: 30px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bolder;
+}
+
+.classmenu .classmenu-body {
+  position: absolute;
+  top: 60px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.classmenu .classmenu-body h3 {
+  color: 	#231010;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.classmenu .classmenu-body .btn {
+  color: #E62B00;
+}
+.ranking{
+  font-family: 'Nerko One', cursive;
+  font-size: 62px;
+  text-align:center;
+  margin-top: 50px;
+  color: #231010;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.class {
+    position: relative;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.class .class-item {
+    position: relative;
+    margin-bottom: 85px;
+    margin-left: 50px;
+}
+
+.class .class-img {
+    position: relative;
+}
+
+.kind {
+    color: #D2691E;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.kindsub {
+    margin-bottom: 20px;
+    color: #4B4B4B;
+    font-family: 'Nanum Gothic Coding', monospace;
+    padding-right: 60px;
+    text-align: center;
+}
+
+/********* Handicraft CSS **********/
+.title{
+  font-family: 'Nerko One', cursive;
+  font-size: 62px;
+  text-align:center;
+  margin-top: 10px;
+  color: #231010;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.text{
+  font-family: 'Jua', sans-serif;
+  font-size: 62px;
+  text-align:center;
+  margin-top: 50px;
+  color: #231010;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.class_img{
+  margin-bottom: 50px;
+  margin-left: 200px;
+}
+
+/********* Footer CSS **********/
+.footer {
+    position: relative;
+    margin-top: 25px;
+    padding-top: 40px;
+    background: #FFF56E;
+    font-family: 'Jua', sans-serif;
+}
+
+.footer .footer-contact,.footer .footer-link,  .footer .footer-newsletter {
+    position: relative;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.footer .footer-contact h2{
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.footer .footer-contact h2::after{
+  position: absolute;
+  content: "";
+  width: 400px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: #D2691E;
+}
+
+.footer .footer-contact p i {
+    width: 25px;
+}
+
+.footer .footer-contact .btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 44px;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #092a49;
+    background: none;
+    border-radius: 0;
+    border: 2px solid #092a49;
+    transition: .3s;
+}
+
+
+/* 공통 */
+.fl {
+	float:left;
+}
+.tc {
+	text-align:center;
+}
+
+
+/* 게시판 글쓰기 */
+#board_write {
+	width:900px;
+	position:relative;
+	margin:0 auto;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+#write_area {
+	margin-top:70px;
+	font-size:14px;
+  font-size: 15px;
+
+}
+#in_name {
+	margin-top:30px;
+}
+#in_name textarea {
+	font-weight:bold;
+	font-size:26px;
+	color:#333;
+	width: 900px;
+	border:none;
+	resize: none;
+}
+#in_title {
+	margin-top:30px;
+}
+#in_title textarea {
+	font-weight:bold;
+	font-size:26px;
+	color:#333;
+	width: 900px;
+	border:none;
+	resize: none;
+}
+.wi_line {
+	border:solid 1px lightgray;
+	margin-top:10px;
+}
+#in_content {
+	margin-top:10px;
+}
+#in_content textarea {
+	font:14px;
+	color:#333;
+	width: 900px;
+	height: 400px;
+	resize: none;
+}
+#in_pw input {
+	font:14px;
+	margin-top:10px;
+}
+.bt_se {
+	margin-top:20px;
+	text-align:center;
+}
+.bt_se button {
+	width:300px;
+	height:40px;
+  background: #FFBC9B	 !important;
+  color: 	#603F20;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-weight: bolder;
+}
+#in_lock {
+	margin-top:10px;
+}
